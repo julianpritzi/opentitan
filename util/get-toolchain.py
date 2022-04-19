@@ -23,9 +23,9 @@ ASSET_PREFIXES = {
     "gcc-only": "lowrisc-toolchain-gcc-rv32imcb-",
 }
 ASSET_SUFFIX = ".tar.xz"
-RELEASES_URL_BASE = 'https://api.github.com/repos/lowRISC/lowrisc-toolchains/releases'
+RELEASES_URL_BASE = 'https://api.github.com/repos/harshanavkis/lowrisc-toolchains/releases'
 
-INSTALL_DIR = '/tools/riscv'
+INSTALL_DIR = '/home/harshanavkis/sec-acc/lowrisc-toolchains/out/riscv'
 TOOLCHAIN_VERSION = 'latest'
 TOOLCHAIN_KIND = 'combined'
 
