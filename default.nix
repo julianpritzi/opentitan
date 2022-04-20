@@ -116,13 +116,13 @@ let
 
   simplesat = buildPythonPackage rec{
     name = "simplesat";
-	version = "0.8.0";
+	version = "0.8.2";
 
 	src = pkgs.fetchFromGitHub {
 	  owner = "enthought";
 	  repo = "sat-solver";
-	  rev = "a208ecbb10b9f0b6726dbd7a502b529e79aa5d24";
-	  sha256 = "sha256-pATRa2DUB0WNcc1VJSyRu18PefB4lrgVDwNq5VLdKK8=";
+	  rev = "4ce881644c872e629358e31f37bc8d099ce42591";
+	  sha256 = "sha256-6mYFqXFRLEOVV4yv/BlIVAnvvCksDAVgQFxshYpZUK4=";
 	  fetchSubmodules = true;
 	  leaveDotGit = true;
     };
@@ -182,6 +182,9 @@ let
     meson
 
 	# Development version with OT-specific changes
+	okonomiyaki
+	simplesat
+	jinja2
 	fusesoc
 	edalize
 
