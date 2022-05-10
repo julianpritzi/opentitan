@@ -104,7 +104,7 @@ let
 	  owner = "enthought";
 	  repo = "okonomiyaki";
 	  rev = "df23b5538c8b73585dfcdd00029321f0503fb8bd";
-	  sha256 = "sha256-dSwXHYcenj3oZsW+pZmQNN3GTOLcci35AlboqNthV+0=";
+	  sha256 = "sha256-L4cFQiy2TWPdEfUWImnpA3L8sMGJ/w7DnrJFcA3sgbU=";
 	  fetchSubmodules = true;
 	  leaveDotGit = true;
     };
