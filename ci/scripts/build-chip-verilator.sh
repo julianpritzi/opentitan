@@ -48,7 +48,7 @@ fusesoc --cores-root=. \
   run --flag=$fileset --target=sim --setup --build \
   --build-root="$OBJ_DIR/hw" \
   $fusesoc_core \
-  --verilator_options="--threads 4"
+  --verilator_options="--threads 12"
 
 cp "$OBJ_DIR/hw/sim-verilator/${vname}" \
    "$BIN_DIR/hw/top_${tl}/Vchip_${tl}_verilator"
